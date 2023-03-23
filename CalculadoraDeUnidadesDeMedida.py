@@ -1,4 +1,3 @@
-
 Const_ValorParaConversão = 1024
 
 #Bit Para Byte
@@ -7,16 +6,11 @@ def converterStringParaFloat(value):
     print()
     return float(value)
 
-def bitParaByte(valorASerConvertido):
+def BitParaByte(valorASerConvertido):
     print()
     bytesCalculado = valorASerConvertido / 8
     return bytesCalculado
     print()
-
-print("ValorASerConvertido")
-entradaDoTecladoValorASerConvertido  = converterStringParaFloat(input())
-valorConvertido = bitParaByte(entradaDoTecladoValorASerConvertido)
-print(valorConvertido)
 
 #Byte Para Bit
 
@@ -30,11 +24,6 @@ def ByteParaBit(valorASerConvertido):
     return bytesCalculado
     print()
 
-print("ValorASerConvertido")
-entradaDoTecladoValorASerConvertido  = converterStringParaFloat(input())
-valorConvertido = ByteParaBit(entradaDoTecladoValorASerConvertido)
-print(valorConvertido)
-
 #Byte Para QuiloByte
 
 def converterStringParaFloat(value):
@@ -47,10 +36,6 @@ def ByteParaQuilobyte(valorASerConvertido):
     return bytesCalculado
     print()
 
-print("ValorASerConvertido")
-entradaDoTecladoValorASerConvertido  = converterStringParaFloat(input())
-valorConvertido = ByteParaQuilobyte(entradaDoTecladoValorASerConvertido)
-print(valorConvertido)
 
 #Quilobyte para Byte
 
@@ -64,10 +49,6 @@ def QuilobyteParaByte(valorASerConvertido):
     return bytesCalculado
     print()
 
-print("ValorASerConvertido")
-entradaDoTecladoValorASerConvertido  = converterStringParaFloat(input())
-valorConvertido = QuilobyteParaByte(entradaDoTecladoValorASerConvertido)
-print(valorConvertido)
 
 #Quilobyte para Megabyte
 
@@ -81,10 +62,7 @@ def QuilobyteParaMegabyte(valorASerConvertido):
     return bytesCalculado
     print()
 
-print("ValorASerConvertido")
-entradaDoTecladoValorASerConvertido  = converterStringParaFloat(input())
-valorConvertido = QuilobyteParaMegabyte(entradaDoTecladoValorASerConvertido)
-print(valorConvertido)
+
 
 #Megabyte para Quilobyte
 
@@ -98,10 +76,6 @@ def MegabyteParaQuilobyte(valorASerConvertido):
     return bytesCalculado
     print()
 
-print("ValorASerConvertido")
-entradaDoTecladoValorASerConvertido  = converterStringParaFloat(input())
-valorConvertido = MegabyteParaQuilobyte(entradaDoTecladoValorASerConvertido)
-print(valorConvertido)
 
 
 #Megabyte para Gigabyte
@@ -116,10 +90,6 @@ def MegabyteParaGigabyte(valorASerConvertido):
     return bytesCalculado
     print()
 
-print("ValorASerConvertido")
-entradaDoTecladoValorASerConvertido  = converterStringParaFloat(input())
-valorConvertido = MegabyteParaGigabyte(entradaDoTecladoValorASerConvertido)
-print(valorConvertido)
 
 #Gigabyte para Megabyte
 
@@ -133,10 +103,6 @@ def GigabyteParaMegabyte(valorASerConvertido):
     return bytesCalculado
     print()
 
-print("ValorASerConvertido")
-entradaDoTecladoValorASerConvertido  = converterStringParaFloat(input())
-valorConvertido = GigabyteParaMegabyte(entradaDoTecladoValorASerConvertido)
-print(valorConvertido)
 
 #Gigabyte para Terabyte
 
@@ -150,10 +116,6 @@ def GigabyteParaTerabyte(valorASerConvertido):
     return bytesCalculado
     print()
 
-print("ValorASerConvertido")
-entradaDoTecladoValorASerConvertido  = converterStringParaFloat(input())
-valorConvertido = GigabyteParaTerabyte(entradaDoTecladoValorASerConvertido)
-print(valorConvertido)
 
 #Terabyte para Gigabyte
 
@@ -167,10 +129,6 @@ def TerabyteParaGigabyte(valorASerConvertido):
     return bytesCalculado
     print()
 
-print("ValorASerConvertido")
-entradaDoTecladoValorASerConvertido  = converterStringParaFloat(input())
-valorConvertido = TerabyteParaGigabyte(entradaDoTecladoValorASerConvertido)
-print(valorConvertido)
 
 #terabyte para Petabyte
 
@@ -184,10 +142,7 @@ def TerabyteParaPetabyte(valorASerConvertido):
     return bytesCalculado
     print()
 
-print("ValorASerConvertido")
-entradaDoTecladoValorASerConvertido  = converterStringParaFloat(input())
-valorConvertido = TerabyteParaPetabyte(entradaDoTecladoValorASerConvertido)
-print(valorConvertido)
+
 
 #Petabyte para Terabyte
 
@@ -200,17 +155,3 @@ def PetabyteParaTerabyte(valorASerConvertido):
     bytesCalculado = valorASerConvertido / Const_ValorParaConversão
     return bytesCalculado
     print()
-
-print("ValorASerConvertido")
-entradaDoTecladoValorASerConvertido  = converterStringParaFloat(input())
-valorConvertido = PetabyteParaTerabyte(entradaDoTecladoValorASerConvertido)
-print(valorConvertido)
-
-
-
-
-
-
-
-
-
