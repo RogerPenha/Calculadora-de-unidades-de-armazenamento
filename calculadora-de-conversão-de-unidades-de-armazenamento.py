@@ -1,4 +1,3 @@
-
 Const_ValorParaConversão = 1024
 
 #Bit Para Byte
@@ -7,7 +6,7 @@ def converterStringParaFloat(value):
     print()
     return float(value)
 
-def bitParaByte(valorASerConvertido):
+def BitParaByte(valorASerConvertido):
     print()
     bytesCalculado = valorASerConvertido / 8
     return bytesCalculado
@@ -15,7 +14,7 @@ def bitParaByte(valorASerConvertido):
 
 print("ValorASerConvertido")
 entradaDoTecladoValorASerConvertido  = converterStringParaFloat(input())
-valorConvertido = bitParaByte(entradaDoTecladoValorASerConvertido)
+valorConvertido = BitParaByte(entradaDoTecladoValorASerConvertido)
 print(valorConvertido)
 
 #Byte Para Bit
